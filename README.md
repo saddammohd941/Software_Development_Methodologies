@@ -113,3 +113,18 @@ DevOps is a **culture and set of practices** that unify software development (De
 | Customer Involvement | Minimal                | High                       | Moderate to High              |
 | Tools                | MS Project, Excel      | Jira, Trello               | Jenkins, Docker, Ansible, Git |
 | Best For             | Fixed-scope projects   | Evolving requirements      | Fast, scalable environments   |
+
+## 📐 Phase-by-Phase Comparison Table
+
+| Phase              | Waterfall                          | Agile                                   | DevOps                                      |
+|--------------------|-------------------------------------|------------------------------------------|---------------------------------------------|
+| **Requirement**     | Collected once at the beginning     | Continuously evolving via backlog        | Same as Agile; driven by user feedback loop |
+| **Design**          | Done completely before development  | High-level upfront, refined in sprints   | Continuous architectural planning           |
+| **Development**     | Starts after design is frozen       | Iterative within each sprint             | Continuous coding and merging (CI)          |
+| **Testing**         | Happens after development completes | Happens during each sprint               | Automated and continuous (CI/CD)            |
+| **Release**         | Single release after full testing   | Incremental releases per sprint          | Frequent or on-demand via pipelines         |
+| **Deployment**      | Manual, at end of project           | At end of each sprint (can be automated) | Automated and often multiple times daily    |
+| **Operations**      | Post-deployment only (maintenance)  | Minimal visibility during sprint         | Continuous monitoring & logging             |
+| **Feedback Loop**   | Very limited or late-stage          | Present after each sprint                | Instant, real-time from production          |
+| **Change Handling** | Difficult once process starts       | Embraced and adaptive                    | Built-in through automation and tools       |
+
